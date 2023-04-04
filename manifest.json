@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Go On",
+  "version": "0.1.0",
+  "description": "Automatically inputs the phrase 'go on' when ChatGPT responses are lengthy.",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["https://chat.openai.com/chat/*"],
+  "action": {
+    "default_popup": "",
+    "default_icon": {
+      "16": "assets/go-on-chatgpt-16.png",
+      "24": "assets/go-on-chatgpt-24.png",
+      "32": "assets/go-on-chatgpt-32.png",
+      "48": "assets/go-on-chatgpt-48.png",
+      "64": "assets/go-on-chatgpt-64.png",
+      "96": "assets/go-on-chatgpt-96.png",
+      "128": "assets/go-on-chatgpt-128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/chat/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "assets/go-on-chatgpt-16.png",
+    "24": "assets/go-on-chatgpt-24.png",
+    "32": "assets/go-on-chatgpt-32.png",
+    "48": "assets/go-on-chatgpt-48.png",
+    "64": "assets/go-on-chatgpt-64.png",
+    "96": "assets/go-on-chatgpt-96.png",
+    "128": "assets/go-on-chatgpt-128.png"
+  }
+}

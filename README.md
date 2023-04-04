@@ -1,2 +1,5 @@
-# Go-on-ChatGPT
-Go on ChatGPT: Simplify your ChatGPT experience with this Chrome extension that automatically says 'go on' or 'continue' when lengthy responses are detected, allowing for a smoother and more comprehensive conversational flow.
+![logo](./assets/go-on-chatgpt-128.png)
+
+# ChatGPT Go On
+
+ChatGPT Go On is a Chrome extension that automatically inputs the phrase "go on" when ChatGPT responses are lengthy, allowing users to receive more information without manual intervention.
