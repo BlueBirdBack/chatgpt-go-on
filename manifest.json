@@ -1,20 +1,20 @@
 {
   "manifest_version": 3,
   "name": "ChatGPT Go On",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Automatically inputs the phrase 'go on' when ChatGPT responses are lengthy.",
   "permissions": ["activeTab", "storage"],
   "host_permissions": ["https://chat.openai.com/chat/*"],
   "action": {
     "default_popup": "",
     "default_icon": {
-      "16": "assets/go-on-chatgpt-16.png",
-      "24": "assets/go-on-chatgpt-24.png",
-      "32": "assets/go-on-chatgpt-32.png",
-      "48": "assets/go-on-chatgpt-48.png",
-      "64": "assets/go-on-chatgpt-64.png",
-      "96": "assets/go-on-chatgpt-96.png",
-      "128": "assets/go-on-chatgpt-128.png"
+      "16": "assets/chatgpt-go-on-16.png",
+      "24": "assets/chatgpt-go-on-24.png",
+      "32": "assets/chatgpt-go-on-32.png",
+      "48": "assets/chatgpt-go-on-48.png",
+      "64": "assets/chatgpt-go-on-64.png",
+      "96": "assets/chatgpt-go-on-96.png",
+      "128": "assets/chatgpt-go-on-128.png"
     }
   },
   "content_scripts": [
@@ -28,12 +28,12 @@
     "type": "module"
   },
   "icons": {
-    "16": "assets/go-on-chatgpt-16.png",
-    "24": "assets/go-on-chatgpt-24.png",
-    "32": "assets/go-on-chatgpt-32.png",
-    "48": "assets/go-on-chatgpt-48.png",
-    "64": "assets/go-on-chatgpt-64.png",
-    "96": "assets/go-on-chatgpt-96.png",
-    "128": "assets/go-on-chatgpt-128.png"
+    "16": "assets/chatgpt-go-on-16.png",
+    "24": "assets/chatgpt-go-on-24.png",
+    "32": "assets/chatgpt-go-on-32.png",
+    "48": "assets/chatgpt-go-on-48.png",
+    "64": "assets/chatgpt-go-on-64.png",
+    "96": "assets/chatgpt-go-on-96.png",
+    "128": "assets/chatgpt-go-on-128.png"
   }
 }

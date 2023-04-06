@@ -1,4 +1,4 @@
-![logo](./assets/go-on-chatgpt-128.png)
+![logo](./assets/chatgpt-go-on-128.png)
 
 # ChatGPT Go On
 
